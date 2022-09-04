@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik+Dirt&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.black{
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.money{
+  display: flex;
+  width: 100%;
+  color: orange;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Quicksand";
+}
+.width:hover{
+  background-color: azure;
+  cursor: pointer;
+}
+.width{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+body{
+    box-sizing: border-box;
+    /* background-color: black; */
+    background-color: rgb(27, 27, 27);
+  
+    padding-bottom: 0;
+}
+.contentall{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-top: 30px;
+    display:inline-block;
+   
+    height: 100%;
+    background-color: rgb(27, 27, 27)
+    
+}
+.h26{
+  font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: azure;
+    font-size: 30px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h24{
+  font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: azure;
+    font-size: 30px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h23{
+  font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: azure;
+    font-size: 30px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h22{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: azure;
+    font-size: 30px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+.menuh2{
+    
+    
+    color: black;
+    background-color: orange;
+    width: 100%;
+}
+.menuitem{
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.imgmenu1{
+    
+    
+    width: 120px;
+    height: 100px;
+}
+.wrapformenu1{
+    
+    
+    background-color: white;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+.wrapformenu2{
+    
+    
+    color: black;
+    background-color: grey;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.wrapformenu3{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+h3{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    font-family: "Quicksand";
+}
+.button{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: greenyellow;
+}
+input[type=number]{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;;
+    height: 25%;
+  }
+  .white{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+.showcart{
+  
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+  
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    height: 60px;
+    display: flex;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cart{
+  margin-left: 10%;
+  margin-top: 30px;
+  width: 80%;
+   
+    left: -2000px;
+    transition: 0.2s;
+    position: absolute;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    flex-direction: column;
+}
+.cartwrapper1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 90px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+
+}
+.cartwrapper2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 90px;
+    align-items: center;
+    justify-content: center;
+
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.wrapperforElement{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+}
+.delete{
+  cursor: pointer;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    background-color: red;
+    color: azure;
+    
+    
+}
+
+
+
+
+/* KKKKKKKKKKKKKKKKKKK */
+.container{
+ 
+  height: 100%;
+  border: 2px solid orange;
+  position: absolute;
+  top: -5000px;
+  font-family: 'Quicksand', sans-serif;
+  width: calc(100% - 40px);
+  display: flex;
+  background-color: rgb(27, 27, 27);
+  transition: 0.3s;
+  flex-direction: column;
+  border-radius: 15px;
+  }
+  form{
+    font-family: 'Quicksand', sans-serif;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+  }
+  h4{
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  p{
+    text-align: center;
+  }
+  .green{
+    color: rgb(57, 255, 110);
+    font-weight: bold;
+  }
+  input{
+    color: orange;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    justify-content: center;
+    height: 35px;
+    padding: 0px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: orange 1px solid;
+  }
+  #submitBut{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    height: 50px;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .textarea{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .row1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .row2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 30px;
+    align-items:center;
+  }
+  .underlined{
+    text-decoration: underline;
+  }
+  #hideCart{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;
+  }
+  #makeorder{
+   
+  }
+  .remove{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    display: flex;
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 50px;
+    
+  }
+  .mgtop{
+    margin-top: 300px;
+  }
+  .wdth{
+    display: flex;
+    width: 100%;
+  }
+  @media(min-width:549px){
+    .button{
+      height: 50px;
+    }
+  }
+  @media(min-width:768px){
+    input[type=number]{width: 70%;}
+   .wrapperforElement{
+    min-height: 100px;
+   }
+    .wrappforitem{
+      
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+    .menuitem{
+      width: 48%;
+      margin: 10px;
+    }
+    .wrapformenu2{
+      background-color: gray;
+    }
+    .wrapformenu1{
+   
+    }
+   
+  }
